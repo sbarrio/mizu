@@ -34,6 +34,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
+		urls.push ("assets/music/stage.ogg");
+		types.push (lime.Assets.AssetType.MUSIC);
+		
+		
 		urls.push ("assets/images/maps/tile.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -98,7 +102,15 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
+		urls.push ("assets/sounds/water_out.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
 		urls.push ("assets/sounds/fire_out.wav");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/fire_out.ogg");
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
@@ -106,7 +118,15 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
+		urls.push ("assets/sounds/hurt.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
 		urls.push ("assets/sounds/jump.wav");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/jump.ogg");
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
@@ -118,7 +138,19 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
+		urls.push ("assets/sounds/start.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/level_complete.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
 		urls.push ("assets/sounds/grounded.wav");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/grounded.ogg");
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
@@ -127,6 +159,18 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/sounds/start.wav");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/water_fill.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/buttonPressed.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/block_move.ogg");
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
@@ -375,7 +419,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "410",
+			build: "425",
 			company: "sbarrio",
 			file: "LD40",
 			fps: 30,

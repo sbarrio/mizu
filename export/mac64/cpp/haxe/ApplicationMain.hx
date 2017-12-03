@@ -635,7 +635,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "412",
+			build: "419",
 			company: "sbarrio",
 			file: "LD40",
 			fps: 30,

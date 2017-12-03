@@ -79,6 +79,17 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_font_pressstart2p_ttf);
 		
 		
@@ -129,6 +140,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/music/stage.wav", __ASSET__assets_music_stage_wav);
 		type.set ("assets/music/stage.wav", AssetType.SOUND);
+		className.set ("assets/music/stage.ogg", __ASSET__assets_music_stage_ogg);
+		type.set ("assets/music/stage.ogg", AssetType.MUSIC);
 		className.set ("assets/images/maps/tile.png", __ASSET__assets_images_maps_tile_png);
 		type.set ("assets/images/maps/tile.png", AssetType.IMAGE);
 		className.set ("assets/images/icon.png", __ASSET__assets_images_icon_png);
@@ -161,22 +174,42 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/player.png", AssetType.IMAGE);
 		className.set ("assets/sounds/hurt.wav", __ASSET__assets_sounds_hurt_wav);
 		type.set ("assets/sounds/hurt.wav", AssetType.SOUND);
+		className.set ("assets/sounds/water_out.ogg", __ASSET__assets_sounds_water_out_ogg);
+		type.set ("assets/sounds/water_out.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/fire_out.wav", __ASSET__assets_sounds_fire_out_wav);
 		type.set ("assets/sounds/fire_out.wav", AssetType.SOUND);
+		className.set ("assets/sounds/fire_out.ogg", __ASSET__assets_sounds_fire_out_ogg);
+		type.set ("assets/sounds/fire_out.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/water_out.wav", __ASSET__assets_sounds_water_out_wav);
 		type.set ("assets/sounds/water_out.wav", AssetType.SOUND);
+		className.set ("assets/sounds/hurt.ogg", __ASSET__assets_sounds_hurt_ogg);
+		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/jump.wav", __ASSET__assets_sounds_jump_wav);
 		type.set ("assets/sounds/jump.wav", AssetType.SOUND);
+		className.set ("assets/sounds/jump.ogg", __ASSET__assets_sounds_jump_ogg);
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/buttonPressed.wav", __ASSET__assets_sounds_buttonpressed_wav);
 		type.set ("assets/sounds/buttonPressed.wav", AssetType.SOUND);
 		className.set ("assets/sounds/water_fill.wav", __ASSET__assets_sounds_water_fill_wav);
 		type.set ("assets/sounds/water_fill.wav", AssetType.SOUND);
+		className.set ("assets/sounds/start.ogg", __ASSET__assets_sounds_start_ogg);
+		type.set ("assets/sounds/start.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/level_complete.ogg", __ASSET__assets_sounds_level_complete_ogg);
+		type.set ("assets/sounds/level_complete.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/grounded.wav", __ASSET__assets_sounds_grounded_wav);
 		type.set ("assets/sounds/grounded.wav", AssetType.SOUND);
+		className.set ("assets/sounds/grounded.ogg", __ASSET__assets_sounds_grounded_ogg);
+		type.set ("assets/sounds/grounded.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/level_complete.wav", __ASSET__assets_sounds_level_complete_wav);
 		type.set ("assets/sounds/level_complete.wav", AssetType.SOUND);
 		className.set ("assets/sounds/start.wav", __ASSET__assets_sounds_start_wav);
 		type.set ("assets/sounds/start.wav", AssetType.SOUND);
+		className.set ("assets/sounds/water_fill.ogg", __ASSET__assets_sounds_water_fill_ogg);
+		type.set ("assets/sounds/water_fill.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/buttonPressed.ogg", __ASSET__assets_sounds_buttonpressed_ogg);
+		type.set ("assets/sounds/buttonPressed.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/block_move.ogg", __ASSET__assets_sounds_block_move_ogg);
+		type.set ("assets/sounds/block_move.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/block_move.wav", __ASSET__assets_sounds_block_move_wav);
 		type.set ("assets/sounds/block_move.wav", AssetType.SOUND);
 		className.set ("assets/font/PressStart2P.svg", __ASSET__assets_font_pressstart2p_svg);
@@ -278,6 +311,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
+		id = "assets/music/stage.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
 		id = "assets/images/maps/tile.png";
 		path.set (id, id);
 		
@@ -342,7 +379,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/water_out.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/fire_out.wav";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/fire_out.ogg";
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
@@ -350,7 +395,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/hurt.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/jump.wav";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/jump.ogg";
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
@@ -362,7 +415,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/start.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/level_complete.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/grounded.wav";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/grounded.ogg";
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
@@ -371,6 +436,18 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/start.wav";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/water_fill.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/buttonPressed.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/block_move.ogg";
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
@@ -579,6 +656,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/music/stage.wav", __ASSET__assets_music_stage_wav);
 		type.set ("assets/music/stage.wav", AssetType.SOUND);
 		
+		className.set ("assets/music/stage.ogg", __ASSET__assets_music_stage_ogg);
+		type.set ("assets/music/stage.ogg", AssetType.MUSIC);
+		
 		className.set ("assets/images/maps/tile.png", __ASSET__assets_images_maps_tile_png);
 		type.set ("assets/images/maps/tile.png", AssetType.IMAGE);
 		
@@ -627,14 +707,26 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/sounds/hurt.wav", __ASSET__assets_sounds_hurt_wav);
 		type.set ("assets/sounds/hurt.wav", AssetType.SOUND);
 		
+		className.set ("assets/sounds/water_out.ogg", __ASSET__assets_sounds_water_out_ogg);
+		type.set ("assets/sounds/water_out.ogg", AssetType.SOUND);
+		
 		className.set ("assets/sounds/fire_out.wav", __ASSET__assets_sounds_fire_out_wav);
 		type.set ("assets/sounds/fire_out.wav", AssetType.SOUND);
+		
+		className.set ("assets/sounds/fire_out.ogg", __ASSET__assets_sounds_fire_out_ogg);
+		type.set ("assets/sounds/fire_out.ogg", AssetType.SOUND);
 		
 		className.set ("assets/sounds/water_out.wav", __ASSET__assets_sounds_water_out_wav);
 		type.set ("assets/sounds/water_out.wav", AssetType.SOUND);
 		
+		className.set ("assets/sounds/hurt.ogg", __ASSET__assets_sounds_hurt_ogg);
+		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
+		
 		className.set ("assets/sounds/jump.wav", __ASSET__assets_sounds_jump_wav);
 		type.set ("assets/sounds/jump.wav", AssetType.SOUND);
+		
+		className.set ("assets/sounds/jump.ogg", __ASSET__assets_sounds_jump_ogg);
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
 		
 		className.set ("assets/sounds/buttonPressed.wav", __ASSET__assets_sounds_buttonpressed_wav);
 		type.set ("assets/sounds/buttonPressed.wav", AssetType.SOUND);
@@ -642,14 +734,32 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/sounds/water_fill.wav", __ASSET__assets_sounds_water_fill_wav);
 		type.set ("assets/sounds/water_fill.wav", AssetType.SOUND);
 		
+		className.set ("assets/sounds/start.ogg", __ASSET__assets_sounds_start_ogg);
+		type.set ("assets/sounds/start.ogg", AssetType.SOUND);
+		
+		className.set ("assets/sounds/level_complete.ogg", __ASSET__assets_sounds_level_complete_ogg);
+		type.set ("assets/sounds/level_complete.ogg", AssetType.SOUND);
+		
 		className.set ("assets/sounds/grounded.wav", __ASSET__assets_sounds_grounded_wav);
 		type.set ("assets/sounds/grounded.wav", AssetType.SOUND);
+		
+		className.set ("assets/sounds/grounded.ogg", __ASSET__assets_sounds_grounded_ogg);
+		type.set ("assets/sounds/grounded.ogg", AssetType.SOUND);
 		
 		className.set ("assets/sounds/level_complete.wav", __ASSET__assets_sounds_level_complete_wav);
 		type.set ("assets/sounds/level_complete.wav", AssetType.SOUND);
 		
 		className.set ("assets/sounds/start.wav", __ASSET__assets_sounds_start_wav);
 		type.set ("assets/sounds/start.wav", AssetType.SOUND);
+		
+		className.set ("assets/sounds/water_fill.ogg", __ASSET__assets_sounds_water_fill_ogg);
+		type.set ("assets/sounds/water_fill.ogg", AssetType.SOUND);
+		
+		className.set ("assets/sounds/buttonPressed.ogg", __ASSET__assets_sounds_buttonpressed_ogg);
+		type.set ("assets/sounds/buttonPressed.ogg", AssetType.SOUND);
+		
+		className.set ("assets/sounds/block_move.ogg", __ASSET__assets_sounds_block_move_ogg);
+		type.set ("assets/sounds/block_move.ogg", AssetType.SOUND);
 		
 		className.set ("assets/sounds/block_move.wav", __ASSET__assets_sounds_block_move_wav);
 		type.set ("assets/sounds/block_move.wav", AssetType.SOUND);
@@ -1434,6 +1544,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if flash
 
 @:keep @:bind #if display private #end class __ASSET__assets_music_stage_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_music_stage_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_maps_tile_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_icon_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_ending_bg_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -1450,14 +1561,24 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_images_button_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_player_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_water_out_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_fire_out_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_fire_out_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_water_out_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_jump_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_jump_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_buttonpressed_wav extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_water_fill_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_start_ogg extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_level_complete_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_grounded_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_grounded_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_level_complete_wav extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_start_wav extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_water_fill_ogg extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_buttonpressed_ogg extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_block_move_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_block_move_wav extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_font_pressstart2p_svg extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_font_pressstart2p_woff extends null { }
@@ -1507,6 +1628,17 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 #elseif html5
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1589,6 +1721,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 @:file("assets/music/stage.wav") #if display private #end class __ASSET__assets_music_stage_wav extends lime.utils.Bytes {}
+@:file("assets/music/stage.ogg") #if display private #end class __ASSET__assets_music_stage_ogg extends lime.utils.Bytes {}
 @:image("assets/images/maps/tile.png") #if display private #end class __ASSET__assets_images_maps_tile_png extends lime.graphics.Image {}
 @:image("assets/images/icon.png") #if display private #end class __ASSET__assets_images_icon_png extends lime.graphics.Image {}
 @:image("assets/images/ending_bg.png") #if display private #end class __ASSET__assets_images_ending_bg_png extends lime.graphics.Image {}
@@ -1605,14 +1738,24 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/images/button.png") #if display private #end class __ASSET__assets_images_button_png extends lime.graphics.Image {}
 @:image("assets/images/player.png") #if display private #end class __ASSET__assets_images_player_png extends lime.graphics.Image {}
 @:file("assets/sounds/hurt.wav") #if display private #end class __ASSET__assets_sounds_hurt_wav extends lime.utils.Bytes {}
+@:file("assets/sounds/water_out.ogg") #if display private #end class __ASSET__assets_sounds_water_out_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/fire_out.wav") #if display private #end class __ASSET__assets_sounds_fire_out_wav extends lime.utils.Bytes {}
+@:file("assets/sounds/fire_out.ogg") #if display private #end class __ASSET__assets_sounds_fire_out_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/water_out.wav") #if display private #end class __ASSET__assets_sounds_water_out_wav extends lime.utils.Bytes {}
+@:file("assets/sounds/hurt.ogg") #if display private #end class __ASSET__assets_sounds_hurt_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/jump.wav") #if display private #end class __ASSET__assets_sounds_jump_wav extends lime.utils.Bytes {}
+@:file("assets/sounds/jump.ogg") #if display private #end class __ASSET__assets_sounds_jump_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/buttonPressed.wav") #if display private #end class __ASSET__assets_sounds_buttonpressed_wav extends lime.utils.Bytes {}
 @:file("assets/sounds/water_fill.wav") #if display private #end class __ASSET__assets_sounds_water_fill_wav extends lime.utils.Bytes {}
+@:file("assets/sounds/start.ogg") #if display private #end class __ASSET__assets_sounds_start_ogg extends lime.utils.Bytes {}
+@:file("assets/sounds/level_complete.ogg") #if display private #end class __ASSET__assets_sounds_level_complete_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/grounded.wav") #if display private #end class __ASSET__assets_sounds_grounded_wav extends lime.utils.Bytes {}
+@:file("assets/sounds/grounded.ogg") #if display private #end class __ASSET__assets_sounds_grounded_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/level_complete.wav") #if display private #end class __ASSET__assets_sounds_level_complete_wav extends lime.utils.Bytes {}
 @:file("assets/sounds/start.wav") #if display private #end class __ASSET__assets_sounds_start_wav extends lime.utils.Bytes {}
+@:file("assets/sounds/water_fill.ogg") #if display private #end class __ASSET__assets_sounds_water_fill_ogg extends lime.utils.Bytes {}
+@:file("assets/sounds/buttonPressed.ogg") #if display private #end class __ASSET__assets_sounds_buttonpressed_ogg extends lime.utils.Bytes {}
+@:file("assets/sounds/block_move.ogg") #if display private #end class __ASSET__assets_sounds_block_move_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/block_move.wav") #if display private #end class __ASSET__assets_sounds_block_move_wav extends lime.utils.Bytes {}
 @:file("assets/font/PressStart2P.svg") #if display private #end class __ASSET__assets_font_pressstart2p_svg extends lime.utils.Bytes {}
 @:file("assets/font/PressStart2P.woff") #if display private #end class __ASSET__assets_font_pressstart2p_woff extends lime.utils.Bytes {}

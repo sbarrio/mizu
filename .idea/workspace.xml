@@ -25,8 +25,8 @@
       <file leaf-file-name="Main.hx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/Main.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6560636">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.6262425">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -558,12 +558,12 @@
       <workItem from="1512213326908" duration="1141000" />
       <workItem from="1512224674403" duration="18849000" />
       <workItem from="1512290413195" duration="18076000" />
-      <workItem from="1512324817602" duration="9783000" />
+      <workItem from="1512324817602" duration="11729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47849000" />
+    <option name="totallyTimeSpent" value="49795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -923,8 +923,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/Main.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6560636">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.6262425">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding />
         </state>
       </provider>
