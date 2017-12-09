@@ -1,0 +1,3 @@
+hxcpp=3.4.188
+hxcpp_api_level=331
+hxcpp=/usr/local/lib/haxe/lib/hxcpp/3,4,188/
